@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation'
 import type { User } from '@supabase/supabase-js'
-import { isAdminEmail, isSupabaseConfigured } from '@/lib/supabase/env'
+import { isSupabaseConfigured } from '@/lib/supabase/env-public'
+import { isAdminEmail } from '@/lib/supabase/env-server'
 import { createClient } from '@/lib/supabase/server'
 
 export async function getCurrentAdmin(): Promise<User> {

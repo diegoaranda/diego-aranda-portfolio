@@ -3,9 +3,9 @@ import { NextResponse, type NextRequest } from 'next/server'
 import type { Database } from '@/lib/types/database'
 import {
   getSupabasePublicEnv,
-  isAdminEmail,
   isSupabaseConfigured,
-} from '@/lib/supabase/env'
+} from '@/lib/supabase/env-public'
+import { isAdminEmail } from '@/lib/supabase/env-server'
 
 function redirectToLogin(request: NextRequest, error?: string) {
   const url = request.nextUrl.clone()
@@ -15,6 +15,14 @@ function redirectToLogin(request: NextRequest, error?: string) {
   if (error) {
     url.searchParams.set('error', error)
   }
+
+  return NextResponse.redirect(url)
+}
+
+function redirectToAdmin(request: NextRequest) {
+  const url = request.nextUrl.clone()
+  url.pathname = '/admin'
+  url.search = ''
 
   return NextResponse.redirect(url)
 }
@@ -60,10 +68,7 @@ export async function updateSession(request: NextRequest) {
 
   if (isLoginRoute) {
     if (user && isAdminEmail(user.email)) {
-      const url = request.nextUrl.clone()
-      url.pathname = '/admin'
-      url.search = ''
-      return NextResponse.redirect(url)
+      return redirectToAdmin(request)
     }
 
     return response
@@ -74,8 +79,9 @@ export async function updateSession(request: NextRequest) {
   }
 
   if (!isAdminEmail(user.email)) {
+    response = redirectToLogin(request, 'unauthorized')
     await supabase.auth.signOut()
-    return redirectToLogin(request, 'unauthorized')
+    return response
   }
 
   return response

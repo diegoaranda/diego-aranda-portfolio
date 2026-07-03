@@ -2,7 +2,7 @@
 
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
-import { isSupabaseConfigured } from '@/lib/supabase/env'
+import { isSupabaseConfigured } from '@/lib/supabase/env-public'
 
 export async function logoutAdmin() {
   if (isSupabaseConfigured()) {
