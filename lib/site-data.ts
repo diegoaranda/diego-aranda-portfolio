@@ -34,11 +34,11 @@ export const brand = {
 }
 
 export const contact: Contact = {
-  email: 'hola@diegoaranda.art',
-  whatsapp: '+591 700 00000',
-  whatsappLink: 'https://wa.me/59170000000',
-  instagram: '@diego.aranda',
-  instagramLink: 'https://instagram.com',
+  email: 'diego.aranda.a@outlook.com',
+  whatsapp: '+591 69006014',
+  whatsappLink: 'https://wa.me/59169006014',
+  instagram: '@diego.aranda.a',
+  instagramLink: 'https://www.instagram.com/diego.aranda.a',
   location: 'Santa Cruz, Bolivia',
 }
 
@@ -351,97 +351,147 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'atelier-norte',
-    slug: 'atelier-norte',
-    title: 'Atelier Norte',
-    category: 'Branding',
-    year: '2025',
+    id: 'diego-aranda-portfolio',
+    slug: 'diego-aranda-portfolio',
+    title: 'Diego Aranda Portfolio',
+    category: 'Web',
+    year: '2026',
     shortDescription:
-      'Sistema de identidad visual para un estudio de arquitectura con lenguaje sobrio y editorial.',
+      'Sitio web personal diseñado para presentar servicios creativos, portafolio y contacto profesional.',
     overview:
-      'Proyecto de identidad pensado para ordenar la presencia de un estudio de arquitectura en propuestas, piezas comerciales y comunicación digital. La dirección visual prioriza claridad, proporción y una sensación premium sin depender de elementos decorativos.',
-    services: ['Identidad visual', 'Sistema gráfico', 'Piezas comerciales'],
-    role: 'Dirección visual y diseño de identidad',
+      'Diseño y construcción de una presencia digital personal con enfoque premium, orientada a mostrar servicios de diseño, web y contenido visual de forma clara y profesional.',
+    services: [
+      'Diseño web',
+      'Dirección visual',
+      'Estructura de contenido',
+      'Portfolio personal',
+    ],
+    role: 'Dirección visual, estructura, diseño web y contenido.',
+    results: [
+      'Base pública lista para evolucionar hacia portafolio dinámico y panel de administración.',
+    ],
     coverImage: '/projects/atelier-norte.png',
     gallery: ['/projects/atelier-norte.png'],
     featured: true,
   },
   {
-    id: 'lumen-estate',
-    slug: 'lumen-estate',
-    title: 'Lumen Estate',
-    category: 'Inmobiliario',
-    year: '2025',
+    id: 'home-finance-os',
+    slug: 'home-finance-os',
+    title: 'Home Finance OS',
+    category: 'Web',
+    year: '2026',
     shortDescription:
-      'Contenido visual inmobiliario para presentar una residencia premium con foco en luz, escala y materiales.',
+      'Aplicación web para gestión de finanzas personales y del hogar.',
     overview:
-      'Producción visual orientada a mostrar una propiedad de alto valor con una lectura clara de espacios, recorridos y detalles. El enfoque evita el exceso de puesta en escena y prioriza imágenes útiles para venta, alquiler y presentación comercial.',
-    services: ['Fotografía inmobiliaria', 'Video', 'Dron', 'Dirección visual'],
-    role: 'Producción y dirección de contenido',
+      'Proyecto digital orientado al control de cuentas, movimientos, presupuestos, metas y gastos recurrentes, con una interfaz clara para uso cotidiano.',
+    services: [
+      'Diseño de interfaz',
+      'Producto digital',
+      'Estructura funcional',
+    ],
+    role:
+      'Dirección de producto, estructura de pantallas, revisión UX y coordinación de desarrollo.',
+    results: ['Aplicación funcional publicada en producción para uso personal/familiar.'],
     coverImage: '/projects/lumen-estate.png',
     gallery: ['/projects/lumen-estate.png'],
     featured: true,
   },
   {
-    id: 'sol-cafe',
-    slug: 'sol-cafe',
-    title: 'Sol Café',
-    category: 'Web',
-    year: '2024',
+    id: 'rey-del-abasto',
+    slug: 'rey-del-abasto',
+    title: 'Rey del Abasto',
+    category: 'Comercial',
+    year: '2026',
     shortDescription:
-      'Sitio y catálogo digital para una marca de café, con estructura clara de producto y compra.',
+      'Contenido comercial para productos de consumo, energía e importación orientado a ventas y generación de leads.',
     overview:
-      'Diseño web enfocado en presentar una oferta de café de especialidad con jerarquía simple, navegación directa y espacio para producto, origen y contacto comercial. La experiencia se plantea como una base estática fácil de mantener.',
-    services: ['Diseño web', 'Landing page', 'Catálogo digital'],
-    role: 'Diseño web y estructura de contenido',
+      'Desarrollo de piezas visuales para comunicar productos, precios, beneficios y disponibilidad comercial en canales digitales como Facebook y WhatsApp.',
+    services: [
+      'Diseño gráfico',
+      'Contenido comercial',
+      'Piezas para redes',
+      'Comunicación visual',
+    ],
+    role:
+      'Diseño gráfico, dirección visual, adaptación de mensajes comerciales y creación de artes.',
+    results: [
+      'Sistema visual útil para campañas, difusión de productos y comunicación comercial directa.',
+    ],
     coverImage: '/projects/sol-cafe.png',
     gallery: ['/projects/sol-cafe.png'],
     featured: true,
   },
   {
-    id: 'campo-vivo',
-    slug: 'campo-vivo',
-    title: 'Campo Vivo',
-    category: 'Comercial',
-    year: '2024',
+    id: 'medalleros-santa-cruz',
+    slug: 'medalleros-santa-cruz',
+    title: 'Medalleros Santa Cruz',
+    category: 'Branding',
+    year: '2025',
     shortDescription:
-      'Contenido comercial para una línea de alimentos naturales, preparado para campañas y retail.',
+      'Marca de portamedalleros personalizados enfocada en deportistas, familias y regalos memorables.',
     overview:
-      'Dirección y producción de piezas visuales para presentar producto de forma consistente en canales comerciales. El trabajo se centra en orden, claridad de mensaje y una estética natural sin perder intención de venta.',
-    services: ['Contenido de producto', 'Piezas de campaña', 'Material comercial'],
-    role: 'Dirección visual y producción de contenido',
+      'Construcción de comunicación visual para un producto personalizado, combinando fotografía, diseño gráfico, campañas estacionales y piezas para venta por WhatsApp/redes.',
+    services: [
+      'Branding',
+      'Contenido para redes',
+      'Piezas comerciales',
+      'Catálogo visual',
+    ],
+    role:
+      'Dirección visual, diseño de piezas, contenido comercial y estructura de comunicación.',
+    results: [
+      'Marca con identidad clara, campañas activas y sistema visual adaptable a temporadas y disciplinas deportivas.',
+    ],
     coverImage: '/projects/campo-vivo.png',
     gallery: ['/projects/campo-vivo.png'],
     featured: true,
   },
   {
-    id: 'meridian-studio',
-    slug: 'meridian-studio',
-    title: 'Meridian Studio',
+    id: 'solusec',
+    slug: 'solusec',
+    title: 'Solusec',
     category: 'Web',
-    year: '2024',
+    year: '2026',
     shortDescription:
-      'Portafolio web para un estudio creativo con jerarquía editorial y navegación directa.',
+      'Aplicación web para generar cotizaciones de servicios de forma ordenada y profesional.',
     overview:
-      'Estructura de sitio para presentar servicios, proyectos y enfoque creativo en pocas pantallas. La propuesta favorece lectura rápida, ritmo tipográfico y un sistema visual sobrio que puede crecer con nuevos casos.',
-    services: ['Diseño web', 'Portafolio digital', 'Sistema visual'],
-    role: 'Diseño de interfaz y dirección visual',
+      'Diseño y estructuración de una herramienta comercial para crear propuestas, organizar servicios, manejar datos de empresa y presentar cotizaciones de manera más profesional.',
+    services: [
+      'Diseño web',
+      'Estructura de app',
+      'Propuesta digital',
+      'Interfaz comercial',
+    ],
+    role:
+      'Estructura funcional, dirección de producto, revisión de interfaz y enfoque comercial.',
+    results: [
+      'Base digital publicada para mejorar el proceso de cotización y presentación comercial.',
+    ],
     coverImage: '/projects/meridian-studio.png',
     gallery: ['/projects/meridian-studio.png'],
     featured: true,
   },
   {
-    id: 'casa-alba',
-    slug: 'casa-alba',
-    title: 'Casa Alba',
+    id: 'contenido-inmobiliario',
+    slug: 'contenido-inmobiliario',
+    title: 'Contenido inmobiliario',
     category: 'Inmobiliario',
-    year: '2023',
+    year: '2026',
     shortDescription:
-      'Contenido inmobiliario para alquiler temporal premium, pensado para plataformas y comunicación directa.',
+      'Contenido visual para propiedades orientado a alquiler temporal, venta directa y presencia digital.',
     overview:
-      'Producción de imágenes y piezas de presentación para comunicar una propiedad de alquiler temporal con mayor claridad. El material busca ayudar a entender ambiente, distribución y nivel de experiencia antes de la visita o reserva.',
-    services: ['Fotografía inmobiliaria', 'Contenido para plataformas', 'Piezas promocionales'],
-    role: 'Producción visual inmobiliaria',
+      'Producción y dirección de contenido para mostrar propiedades con mayor claridad, estética y valor percibido en plataformas digitales.',
+    services: [
+      'Fotografía',
+      'Video',
+      'Contenido para alquiler temporal',
+      'Piezas para promoción de propiedades',
+    ],
+    role:
+      'Dirección visual, fotografía/video, selección de encuadres y piezas para promoción.',
+    results: [
+      'Contenido preparado para mejorar la presentación de propiedades en canales digitales.',
+    ],
     coverImage: '/projects/casa-alba.png',
     gallery: ['/projects/casa-alba.png'],
     featured: true,
@@ -654,11 +704,11 @@ export const aboutPage = {
     alt: 'Retrato de Diego Aranda',
   },
   intro:
-    'Soy Diego Aranda, un profesional creativo con base en Bolivia. Trabajo en la intersección entre el diseño, la web y el contenido visual.',
+    'Soy Diego Aranda, profesional creativo con base en Santa Cruz, Bolivia. Trabajo entre el diseño, la web y el contenido visual para ayudar a marcas, negocios y proyectos a construir una presencia más clara, cuidada y coherente.',
   paragraphs: [
-    'Ayudo a marcas, negocios y proyectos a construir una presencia visual coherente y a la altura de sus objetivos. No creo en el diseño por decoración: cada pieza responde a una intención y a un contexto.',
-    'Mi enfoque combina sensibilidad estética, ejecución moderna y pensamiento estratégico. Desde la identidad de una marca hasta el sitio web o el contenido de una propiedad, busco que todo comunique con claridad y con estándar premium.',
-    'Trabajo de forma cercana y directa, involucrándome en cada etapa del proceso para entregar resultados sólidos, cuidados y útiles para el negocio.',
+    'Mi enfoque combina criterio estético, pensamiento estratégico y ejecución práctica. No trabajo la imagen como algo decorativo, sino como una herramienta para comunicar mejor, presentar mejor una oferta y generar más confianza.',
+    'He desarrollado proyectos de branding, piezas comerciales, sitios web, contenido para redes, catálogos digitales y propuestas visuales para negocios, productos y propiedades.',
+    'Trabajo de forma cercana, directa y con atención al detalle, buscando que cada entrega tenga utilidad real: que se vea mejor, comunique mejor y tenga mayor intención comercial.',
   ],
   areas: {
     label: 'Áreas de trabajo',
