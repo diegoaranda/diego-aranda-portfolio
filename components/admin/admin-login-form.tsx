@@ -2,7 +2,7 @@
 
 import { useSearchParams } from 'next/navigation'
 import { useState, useTransition } from 'react'
-import { createClient } from '@/lib/supabase/client'
+import { sendAdminMagicLink } from '@/app/admin/login/actions'
 import { adminLoginSchema } from '@/lib/validators/admin'
 
 const errorMessages: Record<string, string> = {
@@ -36,19 +36,13 @@ export function AdminLoginForm() {
 
     startTransition(async () => {
       try {
-        const supabase = createClient()
-        const next = searchParams.get('next') || '/admin'
-        const emailRedirectTo = `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`
+        const result = await sendAdminMagicLink(
+          parsed.data.email,
+          searchParams.get('next'),
+        )
 
-        const { error: signInError } = await supabase.auth.signInWithOtp({
-          email: parsed.data.email,
-          options: {
-            emailRedirectTo,
-          },
-        })
-
-        if (signInError) {
-          setError(signInError.message)
+        if (!result.ok) {
+          setError(result.error)
           return
         }
 

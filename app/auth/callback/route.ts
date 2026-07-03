@@ -1,39 +1,12 @@
 import { NextResponse, type NextRequest } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
 import { isSupabaseConfigured } from '@/lib/supabase/env-public'
-
-function getSafeAdminRedirectPath(value: string | null, origin: string) {
-  if (
-    !value ||
-    value.startsWith('//') ||
-    (value !== '/admin' && !value.startsWith('/admin/'))
-  ) {
-    return '/admin'
-  }
-
-  try {
-    const url = new URL(value, origin)
-
-    if (
-      url.origin !== origin ||
-      (url.pathname !== '/admin' && !url.pathname.startsWith('/admin/'))
-    ) {
-      return '/admin'
-    }
-
-    return `${url.pathname}${url.search}${url.hash}`
-  } catch {
-    return '/admin'
-  }
-}
+import { getSafeAdminRedirectPath } from '@/lib/supabase/redirect'
 
 export async function GET(request: NextRequest) {
   const requestUrl = new URL(request.url)
   const code = requestUrl.searchParams.get('code')
-  const next = getSafeAdminRedirectPath(
-    requestUrl.searchParams.get('next'),
-    requestUrl.origin,
-  )
+  const next = getSafeAdminRedirectPath(requestUrl.searchParams.get('next'))
 
   if (!isSupabaseConfigured()) {
     return NextResponse.redirect(
