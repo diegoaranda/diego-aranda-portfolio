@@ -11,3 +11,4 @@ tsconfig.tsbuildinfo
 .DS_Store
 portfolio-website-build.zip
 pnpm-debug.log*
+/IMG_3188.JPG

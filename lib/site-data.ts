@@ -700,7 +700,7 @@ export const aboutPage = {
     },
   },
   portrait: {
-    src: '/diego-portrait.png',
+    src: '/diego-aranda-about.jpg',
     alt: 'Retrato de Diego Aranda',
   },
   intro:
