@@ -1,0 +1,13 @@
+node_modules
+.next
+.pnpm-store
+.vercel
+dist
+out
+coverage
+.env*
+*.log
+tsconfig.tsbuildinfo
+.DS_Store
+portfolio-website-build.zip
+pnpm-debug.log*
