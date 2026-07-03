@@ -54,7 +54,7 @@ export const seo = {
   titleTemplate: '%s | Diego Aranda',
   defaultTitle: brand.title,
   description:
-    'Diseño marcas, sitios web y contenido visual que elevan la presencia de negocios, productos y propiedades. Estudio creativo con base en Santa Cruz, Bolivia.',
+    'Diseño gráfico, sitios web y contenido visual para marcas, productos y propiedades que necesitan presentarse mejor. Diego Aranda, creativo con base en Santa Cruz, Bolivia.',
   keywords: [
     'Diego Aranda',
     'diseño gráfico Bolivia',
@@ -133,25 +133,25 @@ export const pageMetadata = {
   servicios: {
     title: 'Servicios',
     description:
-      'Branding, diseño web, contenido comercial y contenido inmobiliario. Servicios creativos con estándar premium.',
+      'Branding, diseño web, contenido comercial y contenido inmobiliario para construir una presencia visual más clara, sólida y profesional.',
     path: '/servicios',
   },
   portafolio: {
     title: 'Portafolio',
     description:
-      'Proyectos seleccionados de branding, diseño web, contenido comercial y contenido inmobiliario.',
+      'Selección de proyectos de branding, diseño web y contenido visual aplicados a marcas, productos y propiedades.',
     path: '/portafolio',
   },
   sobreMi: {
     title: 'Sobre mí',
     description:
-      'Diego Aranda es un profesional creativo que combina diseño, ejecución digital y pensamiento estratégico.',
+      'Conoce el enfoque de trabajo de Diego Aranda: diseño, web y contenido visual con criterio, claridad y enfoque comercial.',
     path: '/sobre-mi',
   },
   contacto: {
     title: 'Contacto',
     description:
-      'Hablemos de tu proyecto de branding, diseño web o contenido visual. Escríbeme por email o WhatsApp.',
+      'Hablemos de tu proyecto de branding, diseño web o contenido visual. Escríbeme para revisar tu caso y recibir una propuesta clara.',
     path: '/contacto',
   },
 } satisfies Record<string, MetadataContent>
@@ -201,11 +201,12 @@ export const header = {
 
 export const homeHero = {
   eyebrowPrefix: 'Disponible para nuevos proyectos',
-  titleBefore: 'Diseño marcas, sitios web y',
+  titleBefore: 'Diseño, sitios web y',
   titleAccent: 'contenido visual',
-  titleAfter: 'que elevan la presencia de negocios, productos y propiedades.',
+  titleAfter:
+    'para marcas, productos y propiedades que necesitan presentarse mejor.',
   description:
-    'Estudio creativo enfocado en branding, diseño web y producción de contenido. Combino criterio estético, pensamiento estratégico y ejecución cuidada para que tu proyecto se vea — y venda — mejor.',
+    'Ayudo a negocios, marcas personales y proyectos inmobiliarios a verse más claros, sólidos y profesionales mediante diseño gráfico, sitios web y contenido visual pensado para comunicar mejor y generar más confianza.',
   primaryCta: 'Ver proyectos',
   secondaryCta: 'Hablemos',
   mainImage: {
@@ -226,17 +227,17 @@ export const homeHero = {
 export const homeSections = {
   services: {
     label: 'Servicios',
-    title: 'Cuatro disciplinas, una misma dirección visual.',
+    title: 'Diseño, web y contenido bajo una misma dirección visual.',
     ctaLabel: 'Ver todos los servicios',
   },
   portfolio: {
     label: 'Portafolio',
-    title: 'Proyectos seleccionados.',
+    title: 'Proyectos donde la imagen cumple una función real.',
     ctaLabel: 'Ver portafolio completo',
   },
   process: {
     label: 'Cómo trabajo',
-    title: 'Un proceso claro, del diagnóstico a la entrega.',
+    title: 'Un proceso claro para diseñar con intención, no por intuición.',
   },
 }
 
@@ -257,12 +258,12 @@ export const services: Service[] = [
     index: '01',
     title: 'Diseño gráfico & branding',
     short:
-      'Identidades visuales con criterio y sistemas gráficos coherentes que hacen que una marca se reconozca y se recuerde.',
+      'Identidades visuales claras, coherentes y memorables para marcas que necesitan verse a la altura de lo que ofrecen.',
     intro:
-      'Defino la identidad visual de una marca y el sistema gráfico que la sostiene: logotipo, tipografías, color y las reglas que hacen que todo se vea como una sola cosa, dentro y fuera de pantalla.',
+      'Desarrollo identidades visuales y sistemas gráficos que ayudan a una marca a presentarse con más claridad, coherencia y personalidad. Desde el logotipo y la paleta hasta las reglas visuales que ordenan su comunicación, la idea es que todo se vea como parte de una misma marca.',
     forWho:
-      'Marcas nuevas que arrancan de cero y negocios en marcha que ya no se ven a la altura de lo que ofrecen.',
-    why: 'Una identidad ordenada hace que una marca se entienda rápido, transmita seriedad y sea fácil de reconocer en cualquier canal.',
+      'Negocios que están comenzando, marcas que necesitan ordenar su imagen o proyectos que ya crecieron, pero cuya identidad visual ya no representa bien lo que ofrecen.',
+    why: 'Una identidad bien resuelta hace que una marca se entienda más rápido, se vea más sólida y gane consistencia en cada punto de contacto, desde redes y presentaciones hasta piezas comerciales o un sitio web.',
     deliverables: [
       'Identidad visual y logotipo',
       'Sistema y manual de marca',
@@ -276,12 +277,12 @@ export const services: Service[] = [
     index: '02',
     title: 'Diseño web',
     short:
-      'Sitios y landing pages rápidos, claros y elegantes, pensados para presentar y para convertir.',
+      'Sitios web y landing pages pensados para presentar una oferta con claridad, sostener una imagen profesional y facilitar el contacto.',
     intro:
-      'Diseño y construyo sitios web modernos y responsivos, con una estructura clara que guía al visitante hacia lo importante: entender la oferta y dar el siguiente paso.',
+      'Diseño y estructuro sitios web modernos, responsivos y fáciles de recorrer, con foco en presentar bien una marca, un servicio o un producto. La prioridad no es llenar páginas, sino ordenar la información para que quien entra entienda qué ofreces y qué tiene que hacer después.',
     forWho:
-      'Negocios que necesitan un sitio que represente su nivel, y proyectos que quieren una landing enfocada en captar contactos o ventas.',
-    why: 'El sitio suele ser el primer contacto real con un cliente. Uno claro y bien resuelto genera confianza y convierte esa visita en una conversación.',
+      'Marcas personales, negocios y empresas que necesitan una presencia web más profesional, ya sea para presentar servicios, mostrar un portafolio, exhibir un catálogo o captar contactos.',
+    why: 'El sitio web suele ser el lugar donde una persona confirma si una marca se ve seria, clara y confiable. Cuando la estructura y el diseño están bien resueltos, la experiencia transmite orden y ayuda a convertir interés en conversación.',
     deliverables: [
       'Landing pages',
       'Sitios corporativos',
@@ -295,12 +296,12 @@ export const services: Service[] = [
     index: '03',
     title: 'Contenido comercial',
     short:
-      'Contenido visual para producto y campañas que comunica valor y acompaña la venta.',
+      'Piezas visuales para productos, campañas y canales de venta donde el mensaje necesita verse claro, atractivo y bien resuelto.',
     intro:
-      'Produzco contenido visual para producto, promociones y campañas: piezas pensadas para mostrar el valor de lo que vendes y sostener el mensaje en cada punto de contacto.',
+      'Diseño contenido comercial para comunicar productos, promociones, beneficios y ofertas de forma más clara y visual. Trabajo piezas para redes, WhatsApp, catálogos y materiales de venta, cuidando que el diseño no distraiga del mensaje, sino que lo haga más fácil de entender y más sólido de percibir.',
     forWho:
-      'Marcas de producto, comercios y negocios que necesitan alimentar redes, campañas y material de venta con una imagen consistente.',
-    why: 'El contenido es lo que la gente ve todos los días. Cuando es coherente y cuidado, la marca se percibe más sólida y el producto se vende mejor.',
+      'Negocios, marcas de producto y comercios que necesitan comunicar con más frecuencia, vender por canales digitales o mantener una presencia visual más consistente en campañas y publicaciones.',
+    why: 'Gran parte de la percepción de una marca se construye en las piezas que publica todos los días. Cuando ese contenido está bien diseñado, la oferta se entiende mejor, el producto se percibe con más valor y la comunicación gana consistencia.',
     deliverables: [
       'Contenido de producto',
       'Piezas para campañas',
@@ -314,12 +315,12 @@ export const services: Service[] = [
     index: '04',
     title: 'Contenido inmobiliario',
     short:
-      'Fotografía, video y dron para presentar propiedades con estándar premium y venderlas mejor.',
+      'Fotografía, video y piezas visuales para presentar propiedades con más claridad, mejor estética y mayor valor percibido.',
     intro:
-      'Creo contenido inmobiliario de alto nivel —fotografía, video y tomas aéreas— que muestra cada propiedad en su mejor versión y ayuda a que se venda o se alquile antes.',
+      'Produzco contenido visual para propiedades, alquileres temporales y proyectos inmobiliarios, combinando fotografía, video y material promocional para mostrar cada espacio de forma más atractiva y ordenada. El objetivo es que la propiedad se entienda rápido, destaque mejor y genere una mejor primera impresión.',
     forWho:
-      'Agentes, desarrolladoras y propietarios que promocionan propiedades, proyectos o alquileres temporales premium.',
-    why: 'Una propiedad bien presentada capta más interés, atrae al público correcto y sostiene mejor su precio. La primera impresión es visual.',
+      'Agentes, propietarios, desarrolladoras y proyectos de alquiler temporal que necesitan presentar inmuebles con un estándar más cuidado en redes, portales, Airbnb, Booking o material comercial.',
+    why: 'En inmobiliaria, la primera decisión suele ser visual. Un contenido bien producido mejora la percepción del espacio, atrae mejor al público correcto y ayuda a que la propiedad se vea más valiosa desde el primer contacto.',
     deliverables: [
       'Fotografía de propiedades',
       'Video y recorridos',
@@ -518,7 +519,7 @@ export const portfolioModal = {
   ariaLabelPrefix: 'Detalle del proyecto',
   closeLabel: 'Cerrar detalle',
   detail:
-    'Un proyecto trabajado desde el diagnóstico hasta la entrega, cuidando la coherencia visual y el objetivo del negocio en cada pieza. Próximamente compartiré el caso completo.',
+    'Proyecto desarrollado con foco en claridad visual, coherencia de marca y utilidad comercial. Próximamente compartiré casos más completos con proceso, decisiones y resultados.',
 }
 
 export type ProcessStep = {
@@ -556,52 +557,55 @@ export const process: ProcessStep[] = [
 
 export const whyMe = {
   label: 'Por qué trabajar conmigo',
-  title: 'No es solo diseño bonito. Es diseño que trabaja para tu proyecto.',
+  title:
+    'No se trata solo de que se vea bien. Se trata de que se entienda, se sostenga y represente mejor tu proyecto.',
   description:
-    'Combino sensibilidad visual con pensamiento estratégico para construir presencias sólidas y coherentes, capaces de sostener el crecimiento de una marca en el tiempo.',
+    'Trabajo la imagen como una herramienta de presentación, no como un adorno. Mi foco está en construir marcas, sitios y piezas visuales que se vean bien, sí, pero sobre todo que tengan criterio, coherencia y utilidad real.',
   values: [
     {
-      title: 'Diseño con intención de negocio',
+      title: 'Diseño con intención',
       description:
-        'Cada decisión visual responde a un objetivo: comunicar mejor, diferenciar y vender. La estética con propósito.',
+        'Cada decisión visual responde a una necesidad concreta: ordenar una marca, presentar mejor una oferta, mejorar una percepción o hacer más clara una comunicación.',
     },
     {
-      title: 'Ejecución moderna',
+      title: 'Criterio visual + ejecución',
       description:
-        'Herramientas y estándares actuales, del branding al desarrollo web, para resultados que se sienten vigentes.',
+        'No me quedo solo en la idea. Bajo el concepto a piezas, pantallas, imágenes y entregables listos para usarse en canales reales.',
     },
     {
-      title: 'Colaboración cercana',
+      title: 'Trato directo',
       description:
-        'Trato directo, sin intermediarios. Entiendo tu contexto y trabajo contigo durante todo el proceso.',
+        'Trabajo de forma cercana, sin intermediarios ni capas innecesarias. Eso permite entender mejor el contexto del proyecto y tomar decisiones más rápidas.',
     },
     {
-      title: 'Estándar visual premium',
+      title: 'Coherencia entre canales',
       description:
-        'Cuido el detalle, la composición y la coherencia. El nivel se nota en cada pieza entregada.',
+        'Marca, sitio, piezas comerciales y contenido pueden responder a una misma lógica visual. Eso fortalece la percepción general y evita que cada canal parezca una marca distinta.',
     },
     {
-      title: 'Visión integral',
+      title: 'Utilidad antes que ruido',
       description:
-        'Marca, web y contenido bajo una misma dirección, para una presencia consistente en todos los canales.',
+        'Busco soluciones visuales que sirvan, no solo que decoren. Menos relleno, más claridad, mejor presentación y una ejecución que tenga sentido para el negocio.',
     },
   ],
 }
 
 export const finalCta = {
   label: 'Trabajemos juntos',
-  title: '¿Tienes un proyecto en mente? Démosle una presencia a la altura.',
+  title:
+    'Si tu proyecto necesita una presencia más clara, sólida y profesional, conversemos.',
   description:
-    'Cuéntame sobre tu marca, negocio o propiedad. Respondo personalmente y con propuestas claras.',
+    'Trabajo con marcas, negocios y propiedades que necesitan verse mejor, comunicar con más intención o presentar su oferta de una forma más cuidada. Si crees que puedo ayudarte, escríbeme.',
   primaryCta: 'Hablemos',
   secondaryCta: 'WhatsApp',
 }
 
 export const footer = {
-  headline: 'Diseño, web y contenido visual con criterio.',
+  headline:
+    'Diseño, web y contenido visual para presentar mejor una marca, un producto o una propiedad.',
   descriptionPrefix: 'Estudio creativo con base en',
   descriptionSuffix:
-    'Trabajo con marcas, negocios y proyectos que buscan verse — y vender — mejor.',
+    'Trabajo con marcas, negocios y proyectos que necesitan una presencia visual más clara, coherente y profesional.',
   navigationLabel: 'Navegación',
   contactLabel: 'Contacto',
   contactLinks: {
@@ -614,12 +618,12 @@ export const contactPage = {
   hero: {
     label: 'Contacto',
     title: {
-      before: 'Hablemos de tu',
-      accent: 'próximo proyecto',
+      before: 'Cuéntame qué necesitas',
+      accent: 'diseñar o mejorar',
       after: '.',
     },
     description:
-      'Cuéntame qué necesitas y te responderé personalmente con una propuesta clara. Sin compromiso.',
+      'Si estás trabajando en una marca, un sitio web, una campaña o una propiedad que necesita una mejor presentación visual, escríbeme. Revisaré tu caso y te responderé con una propuesta clara y próximos pasos.',
   },
   directLabel: 'Directo',
   locationLabel: 'Ubicación',
@@ -634,7 +638,7 @@ export const contactPage = {
 export const contactForm = {
   successTitle: '¡Gracias!',
   successMessage:
-    'Recibí tu mensaje. Te responderé personalmente lo antes posible.',
+    'Recibí tu mensaje. Te responderé personalmente para revisar el proyecto, tiempos y próximos pasos.',
   sendAnotherLabel: 'Enviar otro mensaje',
   fields: {
     name: {
@@ -659,19 +663,19 @@ export const contactForm = {
       placeholder: 'Cuéntame sobre tu proyecto…',
     },
   },
-  submitLabel: 'Enviar mensaje',
+  submitLabel: 'Enviar consulta',
 }
 
 export const servicesPage = {
   hero: {
     label: 'Servicios',
     title: {
-      before: 'Marca, web y contenido, bajo una',
-      accent: 'misma dirección',
+      before: 'Diseño, web y contenido con una',
+      accent: 'dirección clara',
       after: '.',
     },
     description:
-      'Cuatro disciplinas complementarias para construir y mantener una presencia visual sólida en cada canal.',
+      'Servicios pensados para construir o mejorar la presencia visual de una marca, un producto o una propiedad. Desde la identidad y el sitio web hasta las piezas comerciales y el contenido visual, todo bajo una lógica coherente.',
   },
   deliverablesLabel: 'Entregables',
   serviceCtaLabel: 'Solicitar este servicio',
@@ -682,11 +686,11 @@ export const portfolioPage = {
     label: 'Portafolio',
     title: {
       before: 'Trabajo',
-      accent: 'seleccionado',
+      accent: 'aplicado',
       after: '.',
     },
     description:
-      'Una muestra de proyectos en branding, web y producción de contenido. Filtra por disciplina para explorar.',
+      'Una selección de proyectos en branding, diseño web y contenido visual donde el objetivo no fue solo que algo se vea bien, sino que se entienda mejor, se presente mejor o comunique con más intención.',
   },
 }
 
@@ -695,8 +699,8 @@ export const aboutPage = {
     label: 'Sobre mí',
     title: {
       before: 'Diseño, criterio y',
-      accent: 'ejecución',
-      after: 'en un mismo lugar.',
+      accent: 'enfoque comercial',
+      after: '.',
     },
   },
   portrait: {
@@ -704,11 +708,11 @@ export const aboutPage = {
     alt: 'Retrato de Diego Aranda',
   },
   intro:
-    'Soy Diego Aranda, profesional creativo con base en Santa Cruz, Bolivia. Trabajo entre el diseño, la web y el contenido visual para ayudar a marcas, negocios y proyectos a construir una presencia más clara, cuidada y coherente.',
+    'Soy Diego Aranda, creativo con base en Santa Cruz, Bolivia. Trabajo con marcas, negocios y proyectos inmobiliarios que necesitan verse más profesionales, comunicar con más claridad y sostener una presencia visual mejor resuelta.',
   paragraphs: [
-    'Mi enfoque combina criterio estético, pensamiento estratégico y ejecución práctica. No trabajo la imagen como algo decorativo, sino como una herramienta para comunicar mejor, presentar mejor una oferta y generar más confianza.',
-    'He desarrollado proyectos de branding, piezas comerciales, sitios web, contenido para redes, catálogos digitales y propuestas visuales para negocios, productos y propiedades.',
-    'Trabajo de forma cercana, directa y con atención al detalle, buscando que cada entrega tenga utilidad real: que se vea mejor, comunique mejor y tenga mayor intención comercial.',
+    'Mi trabajo cruza diseño gráfico, web y contenido visual. No parto desde lo decorativo, sino desde lo que el proyecto necesita explicar, ordenar o vender mejor. A partir de eso, construyo una propuesta visual coherente con el contexto, el canal y el objetivo.',
+    'He desarrollado identidades visuales, piezas comerciales, sitios web, catálogos digitales, contenido para redes y material visual para productos y propiedades. Me interesa que cada entrega tenga criterio, se vea cuidada y sea realmente útil para quien la usa.',
+    'Trabajo de forma cercana, directa y con atención al detalle. Busco que cada proyecto tenga una ejecución clara, una estética sólida y una lógica comercial que lo haga más fácil de presentar, entender y mover en canales reales.',
   ],
   areas: {
     label: 'Áreas de trabajo',
@@ -723,8 +727,8 @@ export const aboutPage = {
   philosophy: {
     label: 'Filosofía',
     title: 'Mi manera de trabajar',
-    headline: 'La buena estética no compite con los resultados: los potencia.',
+    headline: 'La estética no reemplaza la estrategia; la vuelve visible.',
     description:
-      'Busco el equilibrio entre belleza y función. Menos ruido, más intención. Cada proyecto es una oportunidad de dejar una marca más clara, más sólida y más memorable.',
+      'Me interesa el punto donde diseño, claridad y utilidad se encuentran. Una marca, un sitio o una pieza visual no deberían verse bien por accidente: deberían responder a una intención, ayudar a comunicar mejor y sostener una presencia más sólida en el tiempo.',
   },
 }

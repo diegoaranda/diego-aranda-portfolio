@@ -7,6 +7,7 @@ out
 coverage
 .env*
 *.log
+*.zip
 tsconfig.tsbuildinfo
 .DS_Store
 portfolio-website-build.zip
